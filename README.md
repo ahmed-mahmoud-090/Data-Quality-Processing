@@ -1,33 +1,30 @@
 # Data-Quality-Processing
+
 Streamlit Data Assistant with Chatbot
 
-Features
-Upload Dataset: Allows users to upload CSV or Excel files.
-Change Data Types: Change column data types (int, float, string, datetime).
-Rename Columns: Rename columns in the dataset.
-Chatbot Interaction: Chat with a Language Model to query the dataset and analyze data.
-Persist Data: All user interactions are stored and persisted across sessions using Streamlit’s session state.
-handle duplicated values
-handle missing values
+## **Features**
+- **Upload Dataset:** Allows users to upload CSV or Excel files.
+- **Change Data Types:** Modify column data types (int, float, string, datetime).
+- **Rename Columns:** Easily rename columns in the dataset.
+- **Handle Duplicated Values:** Identify and handle duplicate data.
+- **Handle Missing Values:** Detect and handle missing values.
+- **Chatbot Interaction:** Interact with a language model to query the dataset and analyze data.
+- **Persist Data:** All user interactions are saved and persisted across sessions using Streamlit’s session state.
 
+## **Technologies Used**
+- **Streamlit:** For creating the interactive web interface.
+- **Pandas:** For data manipulation and handling.
+- **LangChain:** To integrate and interact with language models.
+- **Ollama:** For querying data with a local LLM.
+- **Python:** Core programming language for backend functionality.
 
-Technologies Used:
-Streamlit: For creating the interactive web interface.
-Pandas: For data manipulation and handling.
-LangChain: To integrate and interact with Language Models.
-Ollama: For integrating with a local LLM for querying data.
-Python: Core programming language for backend functionality.
-
-Acknowledgments:
+## **Acknowledgments**
 We would like to thank the following:
-Streamlit for providing the app framework.
-LangChain for enabling the use of language models.
-Ollama For the pre-trained language model that powers the chatbot.
+- **Streamlit:** For providing the app framework.
+- **LangChain:** For enabling the use of language models.
+- **Ollama:** For the pre-trained language model powering the chatbot.
 
-Steps to Run the App:
-Clone the repository.
-Install dependencies using pip install -r requirements.txt.
-Run the app with streamlit run Project.py.
-
-## **Install dependencies:**
-pip install -r requirements.txt
+## **Steps to Run the App**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Data-Quality-Processing.git
